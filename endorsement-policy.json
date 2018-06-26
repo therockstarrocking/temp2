@@ -1,0 +1,26 @@
+{
+    "identities": [
+        {
+            "role": {
+                "name": "member",
+                "mspId": "PatientMSP"
+            }
+        },
+        {
+            "role": {
+                "name": "member",
+                "mspId": "ProviderMSP"
+            }
+        }
+    ],
+    "policy": {
+        "2-of": [
+            {
+                "signed-by": 0
+            },
+            {
+                "signed-by": 1
+            }
+        ]
+    }
+}
